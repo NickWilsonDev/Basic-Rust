@@ -1,0 +1,11 @@
+rustc --version             display version
+
+rustup doc                  open local copy of documentation in my browser
+
+rustup update               update to the latest version
+
+rustup self uninstall       uninstall rust from computer
+
+rustc main.rs               compile file named 'main.rs'
+./main                      run that file
+
