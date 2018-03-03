@@ -9,3 +9,21 @@ rustup self uninstall       uninstall rust from computer
 rustc main.rs               compile file named 'main.rs'
 ./main                      run that file
 
+cargo --version             version info about Cargo, Rust's build system 
+                            and package manager
+
+cargo new <name of project> --bin      --bin because goal is to make an 
+                                        executable rather than a library
+
+cargo build                 build this project, can use --release flag for
+                            compiling with optimizations
+
+cargo run                   run this project, build if necessary
+
+for other peoples projects
+-------------------------------------------------
+git clone someurl.com/someproject
+cd someproject
+cargo build
+
+
